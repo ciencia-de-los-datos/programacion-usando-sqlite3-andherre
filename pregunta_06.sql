@@ -33,10 +33,7 @@
 --  registros con K0 igual a A
 -- 
 --  Rta/
-SELECT * 
-FROM tbl1 
-WHERE k0 = 'A' 
-ORDER BY c14
+
 --    K0  K1     c12  c13         c14   c15   c16
 --  0  A  20  938.16  300  2016-09-12  0.19  BECB
 --  1  A  30  135.80  900  2017-01-26  0.23  EGAB
@@ -47,3 +44,7 @@ ORDER BY c14
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+SELECT * 
+FROM tbl1 
+WHERE k0 = 'A' 
+ORDER BY c14
